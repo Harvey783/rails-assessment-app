@@ -39,7 +39,7 @@ class ActivitiesController < ApplicationController
 
   def destroy
     @project = Project.find(params[:project_id])
-    @activity = @project.activities.find_by(params[:id])
+    @activity = Activity.find(params[:id])
     @activity.destroy
     redirect_to project_path(@project)
   end
