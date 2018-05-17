@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="col-md-4">
+
+    <%= form_for ([@project, @activity]) do |f| %>
+
+    <div class="form-group">
+      <%= f.text_field :name, placeholder: "Activity", class: "form-control" %>
+    </div>
+    <div class="form-group">
+      <%= f.submit class: "btn btn-primary" %>
+    </div>
+    <% end %>
