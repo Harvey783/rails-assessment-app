@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="col-md-4">
+    <h3>Your Projects</h3><br>
+    <% @projects.each do |project| %>
+    <h4><%= link_to project.name, project_path(project), method: 'get' %></h4>
+    <% end %>
+  </div>
+</div>
