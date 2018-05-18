@@ -16,7 +16,6 @@ class ActivitiesController < ApplicationController
 
   def edit
     @project = Project.find(params[:project_id])
-    puts @project.id
     @activity = Activity.find(params[:id])
   end
 
