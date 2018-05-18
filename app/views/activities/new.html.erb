@@ -1,10 +1,11 @@
 <div class="container">
-  <div class="col-md-4">
+  <div class="col-md-8">
+    <h3>Add Activity to <%= @project.name %></h3><br>
 
     <%= form_for ([@project, @activity]) do |f| %>
 
     <div class="form-group">
-      <%= f.text_field :name, placeholder: "Activity", class: "form-control" %>
+      <%= f.text_area :name, placeholder: "Activity", class: "form-control" %>
     </div>
 
     <div class="form-group">
