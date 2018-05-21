@@ -1,4 +1,5 @@
 # README
+rails s -b 'ssl://localhost:3000?key=/Users/harvey/Development/rails-assessment-app/localhost.key&cert=/Users/harvey/Development/rails-assessment-app/localhost.crt'
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
