@@ -1,6 +1,8 @@
 <div class="container">
   <div class="col-md-8">
-    <h3><%= @project.name %></h3><br>
+    <h3><%= @project.name %></h3>
+    <h5> Due <%= @project.due_date.strftime("%B %d, %Y")%><br><br><br>
+
     <% @project.activities.each do |activity| %>
     <h4><%= link_to activity.name, edit_project_activity_path(@project, activity)%></h4>
     <% end %>
