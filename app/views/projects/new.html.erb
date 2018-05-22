@@ -5,6 +5,17 @@
     <%= form_for @project do |f| %>
 
     <div class="form-group">
+      <% if @project.errors.any? %>
+      <ul>
+        <% @project.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+        <%end%>
+      </ul>
+      <%end%>
+    </div><br>
+
+
+    <div class="form-group">
       <%= f.text_field :name, placeholder: "Project Name", class: "form-control" %>
     </div>
 
