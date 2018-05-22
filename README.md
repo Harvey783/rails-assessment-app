@@ -1,11 +1,5 @@
-# README
 
-
-# Sinatra Assessment: Stuff You Gotta Do
-
-## Overview
-Welcome to the uniquely unoriginal Stuff You Gotta Do Sinatra Assessment App. Here you can easily keep track of all the things you have to do but likely wont. Enjoy.
-
+# Rails Assessment App
 
 ## Install Instructions
 1.  Clone the [repository](https://github.com/Harvey783/rails-assessment-app)
