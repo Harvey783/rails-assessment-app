@@ -1,6 +1,7 @@
 
 # Rails Assessment App
 
+
 ## Install Instructions
 1.  Clone the [repository](https://github.com/Harvey783/rails-assessment-app)
 2.  $ cd rails-assessment-app
@@ -9,6 +10,7 @@
 5.  To use Facebook login the server must be bound to a SSL certificate via rails s -b
       'ssl://localhost:3000?key=path/to/file/localhost.key&cert=path/to/file/localhost.crt', and copy and paste   
       https://localhost:3000 into your browser.
+
 
 
 ## MIT License (MIT)
