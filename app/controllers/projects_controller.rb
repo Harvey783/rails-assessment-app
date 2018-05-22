@@ -41,6 +41,6 @@ class ProjectsController < ApplicationController
   private
 
   def project_params
-    params.require(:project).permit(:name, :activity_attributes => [:name])
+    params.require(:project).permit(:name, :due_date, :activity_attributes => [:name])
   end
 end
