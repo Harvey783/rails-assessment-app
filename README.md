@@ -13,7 +13,7 @@ Welcome to the uniquely unoriginal Stuff You Gotta Do Sinatra Assessment App. He
 3.  $ bundle install
 4.  $ rails s to start the server normally and copy and paste http://localhost:3000 into your browser
 5.  To use Facebook login the server must be bound to a SSL certificate via rails s -b
-      'ssl://localhost:3000?key=path/to/file/localhost.key&cert=path/to/file/localhost.crt', and copy and past   
+      'ssl://localhost:3000?key=path/to/file/localhost.key&cert=path/to/file/localhost.crt', and copy and paste   
       https://localhost:3000 into your browser.
 
 
